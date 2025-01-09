@@ -11,6 +11,7 @@ public class Main {
     }
 
     private static String permission(int age, int temp) {
+
         if (age >= 20 && age <= 45 && temp >= -20 && temp <= 30) {
             return "Можно идти домой";
         } else if ( age < 20 && temp >= 0 && temp <= 28) {
